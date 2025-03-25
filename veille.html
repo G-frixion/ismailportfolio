@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio de Ismail BOUSSAHA</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/veille.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7106236741345846"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfo<span>lio.</span></a>
+
+        <div class="bx bx-menu-alt-right" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="entreprise.html">Entreprise</a></li>
+            <li><a href="realisations.html">Réalisations</a></li>
+            <li><a href="#veille">Veille</a></li>
+            <!--<li><a href="bilan.html">Bilan</a></li>-->
+            <li><a href="E5.html">E5</a></li>
+        </ul>
+
+        <!-- <div class="top-btnn">
+            <a href="#" class="h-btn">Me contacter</a>
+        </div> -->
+    </header>
+
+    <section class="hero" id="home">
+        <div class="main-content" data-aos="fade-in">
+            <h1>Sécurité des systèmes et cyberattaques</h1>
+        </div>
+    </section>
+    <section class="ap" id="ap">
+        <div class="about" id="about">
+            <div class="about-text" data-aos="zoom-in-up">
+                <h2>Mes outils <span>de veille</span></h2>
+                <div class="exp-area">
+                    <p class="exp">
+                        <span>L</span>'objectif de cette veille est de montrer les vulnérabilités des systèmes et les
+                        nouvelles
+                        méthodes de cyberattaques utilisées
+                        par les pirates informatiques, ainsi que des efforts déployés pour renforcer la sécurité et la
+                        résilience des systèmes informatiques.
+                    </p>
+                </div>
+                <div class="exp-area">
+                    <p class="exp">
+                        <span>A</span>fin dé réaliser cette veille, je me suis principalement basé sur des flux RSS via
+                        Feedly ainsi que mon fil Twitter et Linkedin.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications" id="certifications">
+        <div class="center-text" data-aos="fade-down">
+            <h2><span>Articles</span>.</h2>
+            <select name="order" onchange="sortArticles(event)">
+                <option value="---">Aucun filtre</option>
+                <option value="note">Meilleurs notes</option>
+                <option value="date">Date</option>
+            </select>
+        </div>
+
+        <div class="certifications-content" data-aos="zoom-in-up">
+            <!--<div class="box">
+                <img src="assets/img/article1.jpg" alt="">
+                <div class="box-content">
+                    <h3>Une nouvelle méthode de phishing voit le jour</h3>
+                    <p class="date" data-date="03/23/23"><strong>23/03/23</strong> - UnderNews</p>
+                    <p class="hide">En utilisant la légitimité des services, les cyberattaquants infiltrent les boîtes
+                        de réception.</p>
+                    <div class="progress-line"><span class="qvingt note" data-note="8">8/10</span></div>
+                    <a href="https://www.undernews.fr/reseau-securite/phishing-hoax/cyberattaque-en-cours-une-nouvelle-methode-dhameconnage-phishing-scams-3-0.html"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>-->
+            <!--<div class="box">
+                <img src="assets/img/article2.jpg" alt="">
+                <div class="box-content">
+                    <h3>Le deepfake est de plus en plus utilisé à des fins malveillantes</h3>
+                    <p class="date" data-date="08/09/22"><strong>09/08/22</strong> - CNET.COM - Marc Zaffagni</p>
+                    <p class="hide">D'après VMWare, les vidéos truquées prennent une place de plus importante dans les
+                        cyberattaques.</p>
+                    <div class="progress-line"><span class="sdix note" data-note="7">7/10</span></div>
+                    <a href="https://www.cnetfrance.fr/news/cybersecurite-le-deepfake-represente-un-danger-croissant-selon-une-nouvelle-etude-39945730.htm"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>-->
+            <!--<div class="box">
+                <img src="assets/img/article3.jpg" alt="">
+                <div class="box-content">
+                    <h3>De l'IA générative pour prévenir les risques cybersécurité chez Tenable</h3>
+                    <p class="date" data-date="08/14/23"><strong>14/08/23</strong> - Informatique NEWS - La rédaction
+                    </p>
+                    <p class="hide">L'éditeur de sécurité Tenable renforce sa plateforme One Exposure Management avec
+                        une fonction d'IA générative.</p>
+                    <div class="progress-line"><span class="soixante note" data-note="6">6/10</span></div>
+                    <a href="https://www.informatiquenews.fr/tenable-lance-sa-propre-ia-generative-dediee-a-la-cybersecurite-exposureai-94724"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>-->
+            <!--<div class="box">
+                <img src="assets/img/article4.jpg" alt="">
+                <div class="box-content">
+                    <h3>Nouvelle technique d’attaque basée sur ChatGPT</h3>
+                    <p class="date" data-date="06/10/23"><strong>10/06/23</strong> - UnderNews</p>
+                    <p class="hide">L’équipe de recherche Voyager18 de Vulcan Cyber a découvert une nouvelle technique
+                        d’attaque basée sur ChatGPT.</p>
+                    <div class="progress-line"><span class="qvdix note" data-note="9">9/10</span></div>
+                    <a href="https://www.undernews.fr/hacking-hacktivisme/nouvelle-technique-dattaque-basee-sur-chatgpt.html"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>-->
+            <div class="box">
+                <img src="assets/img/article5.jpg" alt="">
+                <div class="box-content">
+                    <h3>L'UE souhaite réglementer l'IA par la mise en place d'une loi IA Act</h3>
+                    <p class="date" data-date="06/09/23"><strong>09/06/23</strong> - Parlement Européen</p>
+                    <p class="hide">Les pourparlers pour se protéger face à aux risques de l'IA ont débuté pour trouver
+                        un accord d'ici 2024.</p>
+                    <div class="progress-line"><span class="cent note" data-note="10">8.5/10</span></div>
+                    <a href="https://www.europarl.europa.eu/news/fr/headlines/society/20230601STO93804/loi-sur-l-ia-de-l-ue-premiere-reglementation-de-l-intelligence-artificielle"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+            <!--<div class="box">
+                <img src="assets/img/article6.jpg" alt="">
+                <div class="box-content">
+                    <h3>34 000 équipements Cisco piratés avec cette nouvelle faille</h3>
+                    <p class="date" data-date="10/18/23"><strong>18/10/23</strong> - IT-CONNECT - Florian Burnel </p>
+                    <p class="hide">Des pirates exploitent une faille sur les équipements CISCO en passant par
+                        l'interface Web.</p>
+                    <div class="progress-line"><span class="quarante note" data-note="4">4/10</span></div>
+                    <a href="https://www.it-connect.fr/cyberattaque-plus-de-34-000-equipements-cisco-pirates-avec-cette-nouvelle-faille-zero-day/"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>-->
+            <!--<div class="box">
+                <img src="assets/img/article7.jpg" alt="">
+                <div class="box-content">
+                    <h3>Intelligence artificielle: les députés adoptent une législation historique</h3>
+                    <p class="date" data-date="03/13/24"><strong>13/03/24</strong> - Parlement Européen</p>
+                    <p class="hide">Le Parlement a approuvé la législation sur l’intelligence artificielle qui garantit
+                        sécurité et respect des droits.</p>
+                    <div class="progress-line"><span class="qvdix note" data-note="9">9/10</span></div>
+                    <a href="https://www.europarl.europa.eu/news/fr/press-room/20240308IPR19015/intelligence-artificielle-les-deputes-adoptent-une-legislation-historique"
+                        target="_blank">Voir l'article
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="copyright">
+            <p><a href="https://www.copyrightfrance.com/phtml/copyright.php" class="footer-link">
+                    <span class="copyright-content">
+                        <img src="assets/img/copyrightfrance-logo17.gif" alt="CopyrightFrance.com">
+                    </span>
+                </a> | ©Ismail BOUSSAHA 2024 | <a href="mentions.html" class="footer-link">Mentions légales</a>
+                | <a href="security.html" class="footer-link">Sécurisation du site</a> </p>
+        </div>
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-fill"></i>
+        </a>
+    </div>
+
+    <script src="js/veille.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1400,
+        }); 
+    </script>
+</body>
+
+</html>
